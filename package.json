@@ -6,8 +6,8 @@
   "author": "Unwana Essien",
   "license": "MIT",
   "scripts": {
-    "build": "webpack",
-    "watch": "webpack --watch"
+    "webpack": "webpack",
+    "watch": "webpack --watch" 
   },
   "dependencies": {
     "react": "^16.2.0",

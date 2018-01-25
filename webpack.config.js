@@ -7,7 +7,7 @@ module.exports = {
 
   // change this to your output path
   output: {
-    path: path.resolve(__dirname,'/dist/js/'),
+    path: path.resolve(__dirname,'./dist'),
     filename: "bundle.js",
     publicPath: "/assets/"
   },
@@ -21,7 +21,7 @@ module.exports = {
       {
         test: /.jsx?$/,
         exclude: /node_modules/,
-        loader: "babel",
+        loader: "babel-loader",
         query: {
           presets: ['es2015', 'react', 'stage-3'],
           compact: false
